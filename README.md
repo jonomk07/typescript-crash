@@ -8,11 +8,14 @@ npm i -g typescript
 
 # Compile typescript
 tsc
+
+# To initialize a TypeScript project 
 tsc --init
 
-#run in console
+# run node index to handles your app startup
 node index 
 
+# --watch to continuously compile a project
 tsc <directory> index --watch
 
 # include typescript with react 
