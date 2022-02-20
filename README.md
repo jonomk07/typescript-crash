@@ -1,13 +1,19 @@
 # typescript-crash
 TypeScript Crash Course
 
-Commands 
+# Commands 
 
-npm i -g typescript #install typescript
-tsc # Compile typescript
+# install typescript
+npm i -g typescript 
+
+# Compile typescript
+tsc
 tsc --init
-node index #run in console
+
+#run in console
+node index 
+
 tsc <directory> index --watch
 
-include typescript with react 
+# include typescript with react 
 npx create-react-app my-app --template typescript
